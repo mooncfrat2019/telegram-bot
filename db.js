@@ -57,6 +57,28 @@ export const Users = seq.define('users', {
     last_key: {
         type: DataTypes.TEXT(),
     },
+    name: {
+        type: DataTypes.TEXT(),
+    },
+    email: {
+        type: DataTypes.TEXT(),
+    },
+    user_ie: {
+        type: DataTypes.MEDIUMINT(),
+        defaultValue: 0,
+    },
+    user_sn: {
+        type: DataTypes.MEDIUMINT(),
+        defaultValue: 0,
+    },
+    user_tf: {
+        type: DataTypes.MEDIUMINT(),
+        defaultValue: 0,
+    },
+    user_jp: {
+        type: DataTypes.MEDIUMINT(),
+        defaultValue: 0,
+    },
     state: {
         type: DataTypes.MEDIUMINT(),
         defaultValue: 0,
