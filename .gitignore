@@ -3,3 +3,4 @@ node_modules/
 config.json
 library.db
 package-lock.json
+/lib.sqlite
